@@ -22,12 +22,19 @@ fun main() {
     var urun_adi:String = "Kol saati"
     var urun_adet:Int = 100
     var urun_fiyat:Double = 109.99
-    var urun_tedarikci:String = "rolex"
+    var urun_tedarikci:String = "Rolex"
 
-    println(urun_id)
-    println(urun_adi)
-    println(urun_adet)
-    println(urun_fiyat)
-    println(urun_tedarikci)
+    println("Ürün id: $urun_id")
+    println("Ürün ad: $urun_adi")
+    println("Ürün adet: $urun_adet")
+    println("Ürün fiyat: $urun_fiyat")
+    println("Ürün tedarikçi: $urun_tedarikci")
+
+    println("$urun_tedarikci marka $urun_adi $urun_fiyat fiyatla satılmaktadır. Stokta $urun_adet adet kalmıştır.")
+
+    var a = 10
+    var b = 20
+
+    println("$a ve $b nin toplamı: ${a+b}")
 
 }
